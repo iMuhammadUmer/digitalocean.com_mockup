@@ -7,6 +7,8 @@
 :root {
   --grey: #5b6987;
   --blue: #0069ff;
+  --hr: #e5e8ed;
+  --darkGrey: #031b4e;
 }
 header {
   height: 100px;
@@ -49,4 +51,51 @@ header ul {
 }
 header li {
   list-style-type: none;
+}
+.hr {
+  width: 100%;
+  border-top: 1px solid var(--hr);
+}
+.navBar {
+  width: 95%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  width: 790px;
+}
+nav li {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--darkGrey);
+}
+nav li a {
+  color: inherit;
+  text-decoration: none;
+}
+nav li a:hover {
+  color: var(--blue);
+}
+button {
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 600;
+}
+#btnSignUp {
+  width: 88px;
+  height: 35px;
+  background-color: white;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+  transition: 0.3s;
+}
+#btnSignUp:hover {
+  background-color: var(--blue);
+  color: white;
 }
