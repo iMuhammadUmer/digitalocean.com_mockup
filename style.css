@@ -99,3 +99,10 @@ button {
   background-color: var(--blue);
   color: white;
 }
+main{
+    height: 730px;
+    width: 100%;
+    background-image: url(images/bg-home-1-d54581d7.jpg);
+    background-position: center;
+
+}
