@@ -137,14 +137,14 @@ main .content {
 #bold {
   font-weight: 500;
 }
-.mainHeadingForm{
+.mainHeadingForm {
   width: 100%;
   height: 540px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-main .mainHeading{
+main .mainHeading {
   height: 320px;
   width: 530px;
   display: flex;
@@ -152,14 +152,19 @@ main .mainHeading{
   flex-direction: column;
   color: white;
 }
-.mainHeading h1{
+.mainHeading h1 {
   font-size: 62px;
   line-height: 73px;
   font-weight: 700;
 }
-.mainHeading p{
+.mainHeading p {
   font-size: 24px;
   line-height: 36px;
   font-weight: 400;
 }
-
+.mainCol {
+  height: 540px;
+  width: 475px;
+  background-color: white;
+  border-radius: 5px;
+}
