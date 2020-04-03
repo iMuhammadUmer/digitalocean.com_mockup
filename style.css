@@ -246,3 +246,8 @@ input {
   font-weight: 400;
   color: var(--lightGrey);
 }
+.businessTrust{
+  height: 280px;
+  width: 100%;
+  background-color: var(--btnSignupAlternateBg);
+}
