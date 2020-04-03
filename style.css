@@ -104,5 +104,6 @@ main{
     width: 100%;
     background-image: url(images/bg-home-1-d54581d7.jpg);
     background-position: center;
-
+    /* position: absolute; */
+    z-index: 1;
 }
