@@ -137,3 +137,29 @@ main .content {
 #bold {
   font-weight: 500;
 }
+.mainHeadingForm{
+  width: 100%;
+  height: 540px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .mainHeading{
+  height: 320px;
+  width: 530px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: white;
+}
+.mainHeading h1{
+  font-size: 62px;
+  line-height: 73px;
+  font-weight: 700;
+}
+.mainHeading p{
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
