@@ -370,5 +370,20 @@ h3{
 .deploy .description{
   width: 575px;
   height: 420px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   background-color: var(--blue);
+}
+.descriptionRow{
+  width: 575px;
+  height: 210px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--green);
+} 
+.descriptionRow .descriptionCol{
+  height: inherit;
+  width: 285px;
+  background-color: yellow;
 }
