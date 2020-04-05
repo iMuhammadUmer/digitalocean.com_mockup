@@ -299,3 +299,18 @@ input {
   color: inherit;
   text-decoration: none;
 }
+section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.deploy{
+  width: 100%;
+  height: 790px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
