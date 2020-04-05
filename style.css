@@ -15,6 +15,7 @@
   --btnSignupAlternateBg: #f2f8ff;
   --btnSignupAlternateBorder: #0069ff33;
   --lightGrey: #031b4eb3;
+  --lightPink: #9CB0CB;
 }
 header {
   height: 100px;
@@ -306,6 +307,18 @@ section{
   align-items: center;
   flex-direction: column;
 }
+h1{
+  font-size: 36px;
+  line-height: 45px;
+  color: var(--darkBlue);
+}
+h3{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: var(--lightPink);
+  text-align: center;
+}
 .deploy{
   width: 100%;
   height: 790px;
@@ -313,4 +326,12 @@ section{
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
+}
+.deploy #des{
+  width: 80%;
+}
+.deploy .content{
+  width: 870px;
+  height: 385px;
+  background-color: var(--green);
 }
