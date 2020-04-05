@@ -16,6 +16,8 @@
   --btnSignupAlternateBorder: #0069ff33;
   --lightGrey: #031b4eb3;
   --lightPink: #9CB0CB;
+  --categoryBorder: #EEB7BA;
+  --darkBlueCategoryLihover: #031b4e80;
 }
 header {
   height: 100px;
@@ -330,8 +332,43 @@ h3{
 .deploy #des{
   width: 80%;
 }
-.deploy .content{
+.deploy .contentArea{
   width: 870px;
   height: 385px;
-  background-color: var(--green);
+
+  display: flex;
+  justify-content: space-between;
+}
+.deploy .category{
+  width: 270px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.category li{
+  height: 50px;
+  width: 270px;
+  list-style-type: none;
+  border-left: 2px solid var(--categoryBorder);
+  padding-left: 2em;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 16px;
+  font-weight: 600;
+  color: var(--darkBlueCategoryLihover);
+}
+.category a{
+  text-decoration: none;
+  color: inherit;
+  transition: 0.15s;
+}
+.category a:hover{
+  color: var(--darkBlue);
+}
+.deploy .description{
+  width: 575px;
+  height: 420px;
+  background-color: var(--blue);
 }
