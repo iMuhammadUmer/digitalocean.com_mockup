@@ -420,3 +420,16 @@ h3 {
   height: 477px;
   width: 736px;
 }
+.developers p{
+  width: 40%;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  margin-top: 1em;
+  color: var(--lightGrey);
+}
+.business{
+  height: 630px;
+  width: 100%;
+}
+
