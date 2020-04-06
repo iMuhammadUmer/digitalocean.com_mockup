@@ -476,3 +476,8 @@ h3 {
   color: var(--lightBlue);
   text-decoration: none;
 }
+.dataCenters{
+  height: 640px;
+  width: 100%;
+  background: #031b4e url(images/data-center-map-20321538.sv)
+}
