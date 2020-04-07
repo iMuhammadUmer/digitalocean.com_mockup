@@ -23,7 +23,7 @@
   --getStartedNowBg: #0248ff;
   --btnGetStartedNowHover: #cddafe;
   --footerBg: #010e28;
-  --footerLinks: hsla(0, 0%, 100%, 0.5);
+  --footerLinks: hsla(0, 0%, 100%, 0.502);
 }
 header {
   height: 100px;
@@ -245,7 +245,7 @@ input {
   border: 1px solid var(--btnSignupAlternateBorder);
   font-size: 16px;
   line-height: 48px;
-  font-weight: 500;
+  font-weight: 700;
   color: var(--darkBlue);
 }
 .mainCol p {
@@ -663,8 +663,35 @@ footer .footerLinks {
 .linksCol li a:hover {
   color: white;
 }
-.socialNav{
+.socialNav {
   width: 90%;
   height: 100px;
-  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0.7px solid var(--footerLinks);
+}
+.socialNav p {
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--footerLinks);
+}
+.copyright {
+  height: 50px;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.socialLinks {
+  height: 30px;
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+}
+.socialLinks svg {
+  fill: var(--footerLinks);
+}
+.socialLinks svg:hover {
+  fill: white;
 }
