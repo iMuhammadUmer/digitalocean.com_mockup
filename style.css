@@ -534,3 +534,8 @@ h3 {
   font-weight: 800;
   margin-right: 2em;
 }
+.developmentTeams{
+  height: 817px;
+  width: 100px;
+  background-color: var(--developersBg);
+}
