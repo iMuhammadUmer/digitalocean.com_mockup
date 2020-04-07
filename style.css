@@ -21,8 +21,9 @@
   --developersBg: #f3f5f9;
   --lightBlue: #005fe6;
   --getStartedNowBg: #0248ff;
-  --btnGetStartedNowHover: #CDDAFE;
-  --footerBg: #010E28;
+  --btnGetStartedNowHover: #cddafe;
+  --footerBg: #010e28;
+  --footerLinks: hsla(0, 0%, 100%, 0.5);
 }
 header {
   height: 100px;
@@ -591,7 +592,7 @@ h3 {
   color: var(--lightBlue);
   text-decoration: none;
 }
-.getStartedNow{
+.getStartedNow {
   height: 245px;
   width: 100%;
   background: var(--getStartedNowBg) url(images/bg-home-1-d54581d7.jpg);
@@ -602,10 +603,10 @@ h3 {
   align-items: center;
   flex-direction: column;
 }
-.getStartedNow h1{
+.getStartedNow h1 {
   color: white;
 }
-#btnGetStartedNow{
+#btnGetStartedNow {
   width: 225px;
   height: 48px;
   background-color: white;
@@ -616,15 +617,48 @@ h3 {
   margin-top: 2em;
   transition: 0.25s ease;
 }
-#btnGetStartedNow:hover{
+#btnGetStartedNow:hover {
   background-color: var(--btnGetStartedNowHover);
 }
-#btnGetStartedNow a{
+#btnGetStartedNow a {
   color: inherit;
   text-decoration: none;
 }
-footer{
+footer {
   height: 730px;
   width: 100%;
   background-color: var(--footerBg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footerLinks {
+  height: 395px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerLinks .linksCol {
+  height: 395px;
+  width: 140px;
+}
+#heading {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 0.8em;
+}
+.linksCol li {
+  list-style-type: none;
+  color: var(--footerLinks);
+  margin-bottom: 0.5em;
+}
+.linksCol li a {
+  color: inherit;
+  text-decoration: none;
+}
+.linksCol li a:hover {
+  color: white;
 }
