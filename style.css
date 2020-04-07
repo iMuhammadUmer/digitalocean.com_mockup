@@ -20,6 +20,7 @@
   --darkBlueCategoryLihover: #031b4e80;
   --developersBg: #f3f5f9;
   --lightBlue: #005fe6;
+  --getStartedNowBg: #0248ff;
 }
 header {
   height: 100px;
@@ -587,3 +588,23 @@ h3 {
   color: var(--lightBlue);
   text-decoration: none;
 }
+.getStartedNow{
+  height: 245px;
+  width: 100%;
+  background: var(--getStartedNowBg) url(images/bg-home-1-d54581d7.jpg);
+  background-position: -150px bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.getStartedNow h1{
+  color: white;
+}
+#btnGetStartedNow{
+  width: 225px;
+  height: 48px;
+  background-color: white;
+}
+
