@@ -22,6 +22,7 @@
   --lightBlue: #005fe6;
   --getStartedNowBg: #0248ff;
   --btnGetStartedNowHover: #CDDAFE;
+  --footerBg: #010E28;
 }
 header {
   height: 100px;
@@ -622,4 +623,8 @@ h3 {
   color: inherit;
   text-decoration: none;
 }
-
+footer{
+  height: 730px;
+  width: 100%;
+  background-color: var(--footerBg);
+}
