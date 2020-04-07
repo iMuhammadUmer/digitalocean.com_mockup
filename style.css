@@ -629,8 +629,9 @@ footer {
   width: 100%;
   background-color: var(--footerBg);
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  flex-direction: column;
 }
 footer .footerLinks {
   height: 395px;
@@ -661,4 +662,9 @@ footer .footerLinks {
 }
 .linksCol li a:hover {
   color: white;
+}
+.socialNav{
+  width: 90%;
+  height: 100px;
+  background-color: yellow;
 }
