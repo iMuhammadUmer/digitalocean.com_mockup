@@ -21,6 +21,7 @@
   --developersBg: #f3f5f9;
   --lightBlue: #005fe6;
   --getStartedNowBg: #0248ff;
+  --btnGetStartedNowHover: #CDDAFE;
 }
 header {
   height: 100px;
@@ -165,6 +166,7 @@ main .mainHeading {
   font-size: 62px;
   line-height: 73px;
   font-weight: 700;
+  color: white;
 }
 .mainHeading p {
   font-size: 24px;
@@ -606,5 +608,18 @@ h3 {
   width: 225px;
   height: 48px;
   background-color: white;
+  color: var(--lightBlue);
+  font-size: 16px;
+  line-height: 48px;
+  font-weight: 700;
+  margin-top: 2em;
+  transition: 0.25s ease;
+}
+#btnGetStartedNow:hover{
+  background-color: var(--btnGetStartedNowHover);
+}
+#btnGetStartedNow a{
+  color: inherit;
+  text-decoration: none;
 }
 
